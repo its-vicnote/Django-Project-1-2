@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <!-- <style>
+        *{
+            margin: 0;
+            padding: 0;
+            background-color: skyblue;
+
+        }
+
+        h3{
+            background-color: violet;
+            height: 40px;
+            width: fit-content;
+            align-content: center;
+            margin-left: 40%;
+            padding: 40px;
+            border-radius: 10px;
+            color: white
+        }
+
+        .gmt{
+            margin: 7px;
+            margin-left: 41%;
+            background-color:wheat;
+            max-width: fit-content;
+            padding: 10px;
+            font-size: 30px;
+            background-image: url(https://media.giphy.com/media/3ov9jU4ycPvfrPTsly/giphy-downsized-large.gif);
+            background-size: cover;
+            border-radius: 10px;
+        }
+    </style> -->
+</head>
+<body>
+    <h3>The current date and time</h3>
+    <div class="gmt">{{date}}</div>
+    <div class="gmt">{{time}}</div>
+
+</body>
+</html>

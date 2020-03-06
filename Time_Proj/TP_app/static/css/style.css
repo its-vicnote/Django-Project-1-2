@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+    background-image: url(https://imgix.ranker.com/user_node_img/50056/1001114781/original/1-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces);
+    /* background-size: cover; */
+
+}
+
+h3{
+    background-color: violet;
+    height: 40px;
+    width: fit-content;
+    align-content: center;
+    margin-left: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.gmt{
+    margin: 7px;
+    margin-left: 41%;
+    background-color:wheat;
+    max-width: fit-content;
+    padding: 10px;
+    font-size: 30px;
+    background-image: url(https://media.giphy.com/media/3ov9jU4ycPvfrPTsly/giphy-downsized-large.gif);
+    background-size: cover;
+    border-radius: 10px;
+}

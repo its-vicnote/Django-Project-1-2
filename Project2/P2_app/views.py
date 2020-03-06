@@ -10,6 +10,8 @@ def show(request, blog_id):
 def edit(request, blog_id):
     return HttpResponse(f"/ placeholder to edit blog {blog_id}")
 def delete(request, blog_id):
-    redirect("/")
+    redirect("/index")
 
 # Create your views here.
+
+
